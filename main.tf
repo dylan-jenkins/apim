@@ -4,7 +4,6 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "resource-gp" {
   name     = "apim-rg"
-  location = "UK South"
 }
 
 resource "azurerm_api_management" "api-management" {
